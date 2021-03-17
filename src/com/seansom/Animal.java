@@ -1,7 +1,12 @@
 package com.seansom;
 
 public class Animal {
-    private String name;
+
+    // public = accessible anywhere
+    // protected = only accessible within class, subclass, and package members
+    // private = only accessible within class (methods)
+
+    private String name = "Noname";
     private int weight;
     private String sound;
 

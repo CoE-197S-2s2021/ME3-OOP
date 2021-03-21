@@ -2,9 +2,11 @@ package com.oopconcepts;
 
 public class Dog extends Animal
 {
-    public void digHole()
+    public void digHole(Cat cat)
     {
         System.out.println("Dug a hole");
+        cat.test -= 1;
+        System.out.println(cat.test);
     }
 
     public Dog()

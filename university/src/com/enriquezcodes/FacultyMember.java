@@ -1,4 +1,5 @@
 package com.enriquezcodes;
+import java.util.*;
 
 public class FacultyMember extends Individual{
     private int senioritylevel = 5;

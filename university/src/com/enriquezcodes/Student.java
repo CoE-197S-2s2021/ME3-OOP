@@ -1,4 +1,5 @@
 package com.enriquezcodes;
+import java.util.*;
 
 public class Student extends Individual{
 
@@ -29,4 +30,24 @@ public class Student extends Individual{
         super();
         setGreet("I am a student. Hello, friend");
     }
+}
+
+class Section extends Class{
+    private String sectionname;
+    List<Student> students;
+
+    public String getSectionname() {
+        return sectionname;
+    }
+
+    public void setSectionname(String sectionname) {
+        this.sectionname = sectionname;
+    }
+    public List<Student> getStudents() {
+        return students;
+    }
+    public void setStudents(List<Student> student) {
+        this.students = students;
+    }
+
 }

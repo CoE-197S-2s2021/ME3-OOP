@@ -1,4 +1,5 @@
 package com.enriquezcodes;
+import java.util.*;
 
 public class Individual {
     public String name = "Student";
@@ -22,7 +23,6 @@ public class Individual {
         else {
             System.out.println("Person must be at least 18 years of age");
         }
-        age = newAge;
     }
 
     public void setID(int newID){ id = newID;}

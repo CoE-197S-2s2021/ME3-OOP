@@ -1,4 +1,6 @@
 package com.enriquezcodes;
+import java.util.*;
+
 
 public class TestUniversity {
 
@@ -36,5 +38,18 @@ public class TestUniversity {
         janitor.clean();
         System.out.println("Janitor branch testing end \n");
 
+        System.out.println("Simple Association testing:");
+        Section section = new Section();
+        section.setSectionname("AB");
+        Student Student2 = new Student();
+        Student2.setName("Thomas");
+        Student Student3 = new Student();
+        Student3.setName("Thomas The Engine");
+        List<Student> newList = new ArrayList<Student>();
+        newList.add(Student2);
+        newList.add(Student3);
+        section.setStudents(newList);
+
     }
+
 }

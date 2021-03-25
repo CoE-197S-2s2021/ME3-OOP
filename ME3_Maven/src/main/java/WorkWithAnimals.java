@@ -9,5 +9,11 @@ public class WorkWithAnimals {
         fido.digHole();
 
         fido.setWeight(-1);
+
+        int randNum = 10;
+
+        fido.changeVar(randNum);
+
+        System.out.println("randNum after method: " + randNum);
     }
 }

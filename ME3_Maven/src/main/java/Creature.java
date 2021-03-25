@@ -8,5 +8,5 @@ abstract public class Creature {
 
     public abstract void setWeight(double newWeight);
     public abstract double getWeight();
-    
+
 }

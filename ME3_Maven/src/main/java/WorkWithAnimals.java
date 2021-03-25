@@ -44,6 +44,9 @@ public class WorkWithAnimals {
 
         //fido.bePrivate(); // Doesn't work
         fido.accessPrivate();
+
+        Giraffe giraffe = new Giraffe();
+        giraffe.setName = ("Frank");
     }
 
     public static void changeObjectName(Dog fido){

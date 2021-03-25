@@ -15,5 +15,13 @@ public class WorkWithAnimals {
         fido.changeVar(randNum);
 
         System.out.println("randNum after method: " + randNum);
+
+        changeObjectName(fido);
+
+        System.out.println("Dog name after method call " + fido.getName());
+    }
+
+    public static void changeObjectName(Dog fido){
+        fido.setName("Marcus");
     }
 }

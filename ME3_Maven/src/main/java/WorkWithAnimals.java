@@ -19,6 +19,20 @@ public class WorkWithAnimals {
         changeObjectName(fido);
 
         System.out.println("Dog name after method call " + fido.getName());
+
+        Animal doggy = new Dog();
+        Animal kitty = new Cat();
+
+        System.out.println("Doggy says: " + doggy.getSound());
+        System.out.println("kitty says: " + kitty.getSound());
+
+        Animal[] animals = new Animal[4];
+        animals[0] = doggy;
+        animals[1] = kitty;
+
+        System.out.println("Doggy says: " + animals[0].getSound());
+        System.out.println("kitty says: " + animals[1].getSound());
+        
     }
 
     public static void changeObjectName(Dog fido){

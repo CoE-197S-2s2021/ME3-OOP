@@ -32,10 +32,15 @@ public class WorkWithAnimals {
 
         System.out.println("Doggy says: " + animals[0].getSound());
         System.out.println("kitty says: " + animals[1].getSound());
-        
+
+        speakAnimal(doggy);
     }
 
     public static void changeObjectName(Dog fido){
         fido.setName("Marcus");
+    }
+
+    public static void speakAnimal(Animal randAnimal){
+        System.out.println("Animal says: " + randAnimal.getSound());
     }
 }

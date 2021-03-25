@@ -1,5 +1,7 @@
 public class WorkWithAnimals {
 
+    int justANum = 10;
+
     public static void main(String[] args){
         Dog fido = new Dog();
 
@@ -34,6 +36,14 @@ public class WorkWithAnimals {
         System.out.println("kitty says: " + animals[1].getSound());
 
         speakAnimal(doggy);
+        //doggy.digHole() // Doesn't work
+        ((Dog)doggy).digHole();
+
+        //System.out.println(justANum); // Doesn't work
+        //sayHello(); //Doesn't work
+
+        //fido.bePrivate(); // Doesn't work
+        fido.accessPrivate();
     }
 
     public static void changeObjectName(Dog fido){
@@ -42,5 +52,9 @@ public class WorkWithAnimals {
 
     public static void speakAnimal(Animal randAnimal){
         System.out.println("Animal says: " + randAnimal.getSound());
+    }
+
+    public void sayHello(){
+        System.out.println("Hello");
     }
 }

@@ -18,4 +18,16 @@ public class Dog extends Animal{
 
     }
 
+    private void bePrivate(){
+
+        System.out.println("In a private method");
+
+    }
+
+    public void accessPrivate(){
+
+        bePrivate();
+
+    }
+
 }

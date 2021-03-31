@@ -1,4 +1,4 @@
-abstract public class Creature{
+abstract public class Creature {
 
     protected String name;
     protected int weight;

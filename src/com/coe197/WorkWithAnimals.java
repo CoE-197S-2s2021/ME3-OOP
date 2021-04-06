@@ -1,6 +1,6 @@
 package com.coe197;
 
-public class Main {
+public class WorkWithAnimals {
 
     int justANum = 10;
 

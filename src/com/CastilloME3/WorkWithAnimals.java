@@ -1,29 +1,23 @@
 package com.CastilloME3;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class WorkWithAnimals {
     int justANum = 10;
 
     public static void main(String[] args){
         Dog fido = new Dog(); //initializes object fido
         fido.setName("Fido");
-
         System.out.println(fido.getName());
 
         fido.dighole();
-
         fido.setWeight(-1); //prints "Weight must be bigger than 0"
 
         //everything is passed by value inside of Java
         int randNum = 10;
 
         fido.changeVar(randNum);
-
         System.out.println("randNum after method call: " + randNum); //result to 10
 
         changeObjectName(fido);
-
         System.out.println("Dog name after method call: " + fido.getName() );
 
         Animal doggy = new Dog();

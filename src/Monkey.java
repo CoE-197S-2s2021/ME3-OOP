@@ -1,38 +1,62 @@
 public class Monkey implements Living{
-    @Override
-    public void setName(String newName){}
 
     @Override
-    public String getName(){ return null; }
+    public void setName(String newName) {
+
+    }
 
     @Override
-    public void setHeight(double newHeight){}
+    public String getName() {
+        return null;
+    }
 
     @Override
-    public double getHeight(){ return 0; }
+    public void setHeight(double newHeight) {
+
+    }
 
     @Override
-    public void setWeight(double newWeight){}
+    public double getHeight() {
+        return 0;
+    }
 
     @Override
-    public double getWeight(){ return 0; }
+    public void setWeight(double newWeight) {
+
+    }
 
     @Override
-    public void setFavFood(String newFood){}
+    public double getWeight() {
+        return 0;
+    }
 
     @Override
-    public String getFavFood(){ return null; }
+    public void setFavFood(String newFood) {
+
+    }
 
     @Override
-    public void setSpeed(double newSpeed){}
+    public String getFavFood() {
+        return null;
+    }
 
     @Override
-    public double getSpeed(){ return 0; }
+    public void setSpeed(double newSpeed) {
+
+    }
 
     @Override
-    public void setSound(String newSound){}
+    public double getSpeed() {
+        return 0;
+    }
 
     @Override
-    public String getSound(){ return null; }
+    public void setSound(String newSound) {
 
+    }
+
+    @Override
+    public String getSound() {
+        return null;
+    }
 }

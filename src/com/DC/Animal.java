@@ -1,3 +1,5 @@
+package com.DC
+
 public class Animal{
 
     private String name;

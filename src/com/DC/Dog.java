@@ -1,4 +1,4 @@
-package com.company;
+package com.DC;
 
 public class Dog extends Animal{
     public void digHole(){

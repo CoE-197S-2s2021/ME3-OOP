@@ -1,4 +1,4 @@
-package com.DC
+package com.DC;
 
 public class Animal{
 
@@ -15,7 +15,7 @@ public class Animal{
     public void setHeight(double newHeight){ height = newHeight; }
     public double getHeight(){ return height; }
 
-    public void setweight(int newWeight){
+    public void setWeight(int newWeight){
         if (newWeight > 0){
             weight=newWeight;
         } else {

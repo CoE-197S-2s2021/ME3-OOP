@@ -7,10 +7,11 @@ public class WorkWithAnimals
     public static void main(String[] args)
     {
         Dog fido = new Dog();
+        Cat meow = new Cat();
         fido.setName("Fido");
         System.out.println(fido.getName());
 
-        fido.digHole();
+        fido.digHole(meow);
         fido.setWeight(-1);
 
         int randNum = 10;
@@ -34,7 +35,7 @@ public class WorkWithAnimals
 
         speakAnimal(doggy);
 
-        ((Dog)doggy).digHole();
+        //((Dog)doggy).digHole();
 
         //System.out.println(justANum);
 

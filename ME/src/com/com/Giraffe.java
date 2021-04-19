@@ -1,4 +1,4 @@
-package com.company;
+package com.com;
 
 public class Giraffe extends Creature{
 
@@ -12,20 +12,17 @@ public class Giraffe extends Creature{
 
     @Override
     public String getName() {
-        // TODO Auto-generated method stub
         return name;
     }
 
     @Override
     public void setWeight(double newWeight) {
-        // TODO Auto-generated method stub
 
     }
 
     @Override
     public double getWeight() {
-        // TODO Auto-generated method stub
+
         return 0;
     }
 }
-

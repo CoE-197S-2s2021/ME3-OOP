@@ -1,7 +1,6 @@
-package com.company;
+package com.com;
 
 public class Dog extends Animal{
-
 
     public void digHole(){
 
@@ -17,28 +16,20 @@ public class Dog extends Animal{
 
     }
 
-    /* This private method can only be accessed through using other
-     * methods in the class */
-
     private void bePrivate(){
         System.out.println("In a private method");
     }
+
     public void accessPrivate(){
         bePrivate();
     }
-        // The constructor initializes all objects
 
     public Dog(){
 
-        // Executes the parents constructor
-        // Every class has a constructor whether you make it or not
-
         super();
 
-        // Sets bark for all Dog objects by default
-
         setSound("Bark");
+
     }
 
 }
-

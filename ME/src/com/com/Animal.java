@@ -1,4 +1,4 @@
-package com.company;
+package com.com;
 
 public class Animal {
 
@@ -32,9 +32,6 @@ public class Animal {
 
     public void setSound(String newSound){ sound = newSound; }
     public String getSound(){ return sound; }
-
-    // A private method can only be accessed by other public methods
-    // that are in the same class
 
     private void bePrivate(){
         System.out.println("I'm a private method");

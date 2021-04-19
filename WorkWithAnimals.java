@@ -47,8 +47,6 @@ public class WorkWithAnimals{
 
         System.out.println(giraffe.getName());
 
-
-
     }
 
     public static void changeObjectName(Dog fido){

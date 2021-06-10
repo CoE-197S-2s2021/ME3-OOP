@@ -5,9 +5,7 @@ public class Dog extends Animal{
     public void digHole(){
 
         System.out.println("Dug a hole");
-
     }
-
     public void changeVar(int randNum){
 
         randNum = 12;
@@ -29,7 +27,5 @@ public class Dog extends Animal{
         super();
 
         setSound("Bark");
-
     }
-
 }

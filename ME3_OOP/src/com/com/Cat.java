@@ -7,13 +7,16 @@ public class Cat extends Animal{
 
         super();
 
+
         setSound("Meow");
 
     }
 
+
     final void attack(){
 
     }
+
 
     public static final double FAVNUMBER = 3.14;
 

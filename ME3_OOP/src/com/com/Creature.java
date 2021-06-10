@@ -1,6 +1,8 @@
 package com.com;
 
+
 abstract public class Creature{
+
 
     protected String name;
     protected double height;
@@ -8,6 +10,7 @@ abstract public class Creature{
     protected String favFood;
     protected double speed;
     protected String sound;
+
 
     public abstract void setName(String newName);
     public abstract String getName();

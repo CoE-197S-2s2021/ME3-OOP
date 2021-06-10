@@ -1,5 +1,4 @@
 package com.com;
-
 public class Animal {
 
     private String name;

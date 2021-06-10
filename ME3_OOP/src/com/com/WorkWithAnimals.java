@@ -15,10 +15,12 @@ public class WorkWithAnimals{
 
         fido.setWeight(-1);
 
+
         int randNum = 10;
         fido.changeVar(randNum);
 
         System.out.println("randNum after method call: " + randNum);
+
 
         changeObjectName(fido);
 
@@ -32,12 +34,14 @@ public class WorkWithAnimals{
         System.out.println("Doggy says: " + doggy.getSound());
         System.out.println("Kitty says: " + kitty.getSound() + "\n");
 
+
         Animal[] animals = new Animal[4];
         animals[0] = doggy;
         animals[1] = kitty;
 
         System.out.println("Doggy says: " +animals[0].getSound());
         System.out.println("Kitty says: " +animals[1].getSound() + "\n");
+
 
         speakAnimal(doggy);
 
@@ -53,7 +57,6 @@ public class WorkWithAnimals{
 
     }
 
-
     public static void changeObjectName(Dog fido){
 
         fido.setName("Marcus");
@@ -65,7 +68,6 @@ public class WorkWithAnimals{
         System.out.println("Animal says: " + randAnimal.getSound());
 
     }
-
 
     public void sayHello(){
 

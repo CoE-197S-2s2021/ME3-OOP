@@ -18,4 +18,5 @@ public interface Living {
     public void setSound(String newSound);
     public String getSound();
 
+
 }
